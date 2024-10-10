@@ -1,18 +1,16 @@
-````markdown
-# Project setup instructions
+## Project Setup Instructions
 
 To get started with the project, please follow these steps:
 
-## 1. Install dependencies
+## 1. Install Dependencies
 
 Install all the necessary packages:
 
 ```bash
-pnpm i
+pnpm install
 ```
-````
 
-## 2. Start listening for code changes
+## 2. Start Listening for Code Changes
 
 Run the local server to start listening for code changes:
 
@@ -20,16 +18,26 @@ Run the local server to start listening for code changes:
 pnpm run start
 ```
 
-## 3. Run preview
+## 3. Run Preview
+
+Start the preview environment:
 
 ```bash
 pnpm run shopify:dev
 ```
 
-To run the application preview, visit the following address (preview: [http://127.0.0.1:9292/?preview_theme_id=173116817756](http://127.0.0.1:9292/?preview_theme_id=your_theme_id)):
+To view the application preview, visit the following address:
 
-### Make sure you change the preview_theme_id in package.json
+[http://127.0.0.1:9292/?preview_theme_id=your_theme_id](http://127.0.0.1:9292/?preview_theme_id=your_theme_id)
 
-## 4. Description
+> **Note:** Make sure to replace `your_theme_id` with the actual `preview_theme_id` in your `package.json`.
 
-In the /src directory we declare .liquid, .ts and .scss files, after saving the file they are immediately modified and moved to the main directory to the /assets, /snippets or /sections folder.
+## 4. Project Structure Description
+
+In the `/src` directory, we have `.liquid`, `.ts`, and `.scss` files. After saving a file, it is automatically processed and moved to the respective folders in the main directory:
+
+- `/assets`
+- `/snippets`
+- `/sections`
+
+This setup ensures that your assets are organized and up-to-date with your latest code changes.
