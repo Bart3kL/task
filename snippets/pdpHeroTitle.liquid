@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="{{ 'pdpHeroTitle.css' | asset_url }}">
+
+
+<style>
+  .pdpHeroTitle {
+    --font-family: {{ blockSettings.font-family.family }};
+    --font-weight: {{ blockSettings.font-weight }};
+    --font-size-mobile: {{ blockSettings.font-size-mobile }}px;
+    --font-size-desktop: {{ blockSettings.font-size-desktop }}px;
+  }
+</style>
+
+<h1 class="pdpHeroTitle">{{ title }}</h1>

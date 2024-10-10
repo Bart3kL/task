@@ -7,7 +7,7 @@
 		"dev": "vite build --watch",
 		"build": "vite build && node scripts/watch-theme.js",
 		"watch:theme": "node scripts/watch-theme.js --watch",
-		"shopify:dev": " shopify theme dev --live-reload full-page  --port=9292 & http://127.0.0.1:9292/?preview_theme_id=173116817756",
+		"shopify:dev": " shopify theme dev --live-reload full-page  --port=9292 & http://127.0.0.1:9292/?preview_theme_id=170874798413",
 		"start": "npm-run-all --parallel dev watch:theme"
 	},
 	"dependencies": {

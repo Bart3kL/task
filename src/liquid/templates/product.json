@@ -1,4 +1,40 @@
 {
-	"sections": {},
-	"order": []
+	"sections": {
+		"pdpHero": {
+			"type": "pdpHero",
+			"blocks": {
+				"stock_status_H3Q3KK": {
+					"type": "stock_status",
+					"settings": {}
+				},
+				"title_P4ahcF": {
+					"type": "title",
+					"settings": {
+						"font-family": "nunito_n4",
+						"font-weight": 700,
+						"font-size-mobile": 30,
+						"font-size-desktop": 40
+					}
+				},
+				"price_d7FDRU": {
+					"type": "price",
+					"settings": {}
+				},
+				"button_3pWKNX": {
+					"type": "button",
+					"settings": {}
+				}
+			},
+			"block_order": [
+				"stock_status_H3Q3KK",
+				"title_P4ahcF",
+				"price_d7FDRU",
+				"button_3pWKNX"
+			],
+			"settings": {
+				"bg_color": "#ffffff"
+			}
+		}
+	},
+	"order": ["pdpHero"]
 }

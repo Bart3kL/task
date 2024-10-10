@@ -1,10 +1,4 @@
 {
-	"sections": {
-		"pdpHero": {
-			"type": "pdpHero",
-
-			"settings": {}
-		}
-	},
-	"order": ["pdpHero"]
+	"sections": {},
+	"order": []
 }

@@ -1,0 +1,77 @@
+.pdpHero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 30px;
+
+	color: black;
+	background-color: var(--pdpHero-bg-color);
+
+	&Price {
+		margin: 15px 0;
+
+		font-size: 20px;
+	}
+
+	&StockStatus {
+		margin: 10px 0;
+
+		font-size: 17px;
+
+		&SoldOut {
+			color: #6c757d;
+		}
+
+		&LastPieces {
+			color: #dc3545;
+		}
+
+		&Low {
+			color: #fd7e14;
+		}
+
+		&Medium {
+			color: #ffc107;
+		}
+
+		&High {
+			color: #28a745;
+		}
+	}
+	&Btn {
+		padding: 0.75rem 1.5rem;
+		border: none;
+		border-radius: 0.25rem;
+
+		font-size: 16px;
+		text-align: center;
+		text-decoration: none;
+
+		background-color: #007bff;
+		color: #fff;
+
+		cursor: pointer;
+		transition: background-color 0.2s ease-in-out;
+
+		&:hover {
+			background-color: darken(#007bff, 10%);
+		}
+
+		&OutOfStock {
+			background-color: #dc3545;
+
+			&:hover {
+				background-color: darken(#dc3545, 10%);
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.pdpHero {
+		&Price {
+			font-size: 25px;
+		}
+	}
+}
