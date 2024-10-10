@@ -1,0 +1,6 @@
+MissingAsset:
+  enabled: false
+  severity: warning
+UndefinedObject:
+  enabled: false
+  severity: warning
